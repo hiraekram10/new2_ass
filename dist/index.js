@@ -82,7 +82,7 @@ class Motorcycle extends Vehicle {
     }
 }
 // Example usage
-const car = new Car("Toyota", "Camry", 2023, false, 5);
+const car = new Car("Toyota", "Camry", 2022, false, 5);
 console.log(car.rent()); // "You have rented Toyota Camry."
 console.log(car.returnVehicle()); // "Thank you for returning Toyota Camry."
 console.log(car.rent()); // "You have rented Toyota Camry."
